@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm_hardware_interface">
+
+  <ros2_control name="HardwareInterface_Ignition" type="system">
+  
+     <hardware>
+        <plugin>ign_ros2_control/IgnitionSystem</plugin> 
+     </hardware> 
+ 
+     <joint name="joint_j0">
+        <command_interface name="position"/>
+        <state_interface name="position"> 
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="effort">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+    </joint>
+
+    <joint name="joint_j1">
+        <command_interface name="position"/>
+        <state_interface name="position"> 
+            <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="effort">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+    </joint>
+
+    <joint name="joint_j2">
+        <command_interface name="position"/>
+        <state_interface name="position"> 
+            <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="effort">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+    </joint>
+
+    <joint name="joint_j3">
+        <command_interface name="position"/>
+        <state_interface name="position"> 
+            <param name="initial_value">0</param>
+        </state_interface>
+        <state_interface name="velocity">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="effort">
+            <param name="initial_value">0.0</param>
+        </state_interface>
+    </joint>
+    
+  </ros2_control>
+
+</robot>
