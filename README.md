@@ -1,4 +1,4 @@
-# HM0 RL 24/25 Arsen Hudyma
+# HM1 RL 24/25 Arsen Hudyma
 
 Hi, this is the repository for the HM1 of the course 'Robotics Lab' and this time our focus will be on loading a robot manipulator in rviz2 and in gazebo worlds, but also on the implementation of the ros2_control part so that we can send position commands to our robot!
 To start, you'll need this repository on your computer, so get it by:
